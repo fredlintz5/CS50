@@ -14,7 +14,7 @@ int main(void)
         height = get_int();
     }
     
-    while (height <= 0 || height >= 24);
+    while (height < 1 || height > 23);
      
 
     //outer loop, adding rows to pyramid up to user specified height//
